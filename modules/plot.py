@@ -27,7 +27,7 @@ def plot_ui():
                 id="years_value",
                 label="Selecciona Any",
                 min=1990,
-                max=2020,
+                max=2019,
                 value=[2010, 2015],
                 sep="",
             ),

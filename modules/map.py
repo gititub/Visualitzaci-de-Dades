@@ -28,10 +28,10 @@ def map_ui():
             ui.tags.br(),
             ui.input_slider(
                 id="years_value",
-                label="Select Year",
+                label="Selecciona Any",
                 min=1990,
-                max=2020,
-                value=2010,
+                max=2019,
+                value=2014,
                 sep="",
             ),
             ui.tags.hr(),
@@ -49,7 +49,7 @@ def map_ui():
 
 
 @module.server
-def map_server(input, output, session, is_wb_data):
+def map_server(input, output, sessioAn, is_wb_data):
     # Initialize and display when the session starts (1)
     map = Map(
         basemap=basemap["CartoDB"]["Positron"],

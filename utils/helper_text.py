@@ -7,13 +7,13 @@ about_text = TagList(
     tags.p(
         """
         La contaminació de l'aire sempre ha estat un problema 
-        per al món i al llarg dels anys, però sobretot amb 
-        la pandèmia. 
+        per al món i al llarg dels anys.
 
         A través d'aquesta aplicació, volem explorar la relació
         entre la mesura de les partícules PM2.5 i la taxa de 
-        mortalitat (morts per 100.000 habitants) a causa de
+        mortalitat a causa de
         malalties respiratòries a tot el món al llarg dels anys.
+        (morts per 100.000 habitants)
 
         """,
         style="""
@@ -26,7 +26,9 @@ about_text = TagList(
 
 slider_text_map = tags.p(
     """
-    Seleccioneu les dates en el mapa.
+    Seleccioneu les dates per veure el mapa.
+    La mida del cercle representa la taxa de mortalitat 
+    i la intensitat de color representa la mesura de PM2.5
     """,
     style="""
     text-align: justify;
@@ -39,8 +41,7 @@ slider_text_plot = tags.p(
     """
     Arrossega per seleccionar el rang d'anys i
     desplega per seleccionar els països a comparar. 
-    Per defecte, les dades d'Espanya apareixen
-    dibuixades.
+   
     """,
     style="""
     text-align: justify;
@@ -77,7 +78,7 @@ dataset_information = TagList(
             tags.a(
                 "OECD Data Explorer • Exposure to air pollution",
                 href=(
-                    "https://data-explorer.oecd.org/vis?pg=0&snb=6&tm=PM2.5&vw=tb&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_AIR_POL%40DF_AIR_POLL&df%5Bag%5D=OECD.ENV.EPI&df%5Bvs%5D=1.0&pd=%2C&dq=.A.MEAN_POP...MCG_M3.&to%5BTIME_PERIOD%5D=false"
+                    "https://stats.oecd.org/Index.aspx?DataSetCode=EXP_PM2_5#"
                 ),
             )
         ),
@@ -85,7 +86,7 @@ dataset_information = TagList(
             tags.a(
                 "OECD Data Explorer • Health risks • Respiratory system diseases mortality crude rate",
                 href=(
-                    "https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=20&tm=MORTALITY&vw=tb&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_REG_HEALTH%40DF_RISK&df%5Bag%5D=OECD.CFE.EDS&df%5Bvs%5D=1.0&pd=%2C&dq=A.CTRY...MORT_ICDJ_CRUDE_RATIO...&ly%5Brw%5D=REF_AREA&ly%5Bcl%5D=TIME_PERIOD&to%5BTIME_PERIOD%5D=false"
+                    "https://stats.oecd.org/Index.aspx?DataSetCode=EXP_PM2_5#"
                 ),
             )
         ),
@@ -99,7 +100,7 @@ missing_note = TagList(
         Durant els anys 1990 a 2010, les dades de PM2.5
         es van recollir cada cinc anys. És a dir, les dades 
         de PM2.5 només són disponibles per
-        1990, 1995, 2000, 2005, 2010 i 2010 en endavant..
+        1990, 1995, 2000, 2005, 2010 i 2010 en endavant.
         """,
         style="""
         font-size: 14px;

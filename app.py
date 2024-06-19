@@ -13,7 +13,7 @@ page_dependencies = ui.tags.head(
     
     ui.tags.link(rel="apple-touch-icon", href="pwa/uoc.png"),
 
-    ui.tags.meta(name="description", content="Respiratory Disease PyShiny"),
+    ui.tags.meta(name="description", content="Visualitzacio PyShiny"),
     ui.tags.meta(name="theme-color", content="#000000"),
     ui.tags.meta(name="apple-mobile-web-app-status-bar-style", content="#000000"),
     ui.tags.meta(name="apple-mobile-web-app-capable", content="yes"),
