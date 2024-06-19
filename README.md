@@ -1,6 +1,11 @@
-La contaminació de l'aire sempre ha estat un problema per al món i al llarg dels anys. A través d'aquesta aplicació, volem explorar la relació entre la mesura de les partícules PM2.5 i la taxa de mortalitat a causa de malalties respiratòries a tot el món al llarg dels anys. (morts per 100.000 habitants) 
+La contaminació de l'aire sempre ha estat un problema per al món i al llarg dels anys. A través d'aquesta aplicació, volem explorar la relació entre la mesura de les partícules PM2.5 i la taxa de mortalitat a causa de malalties respiratòries a tot el món al llarg dels anys. (morts per 100.000 habitants). 
 
-https://nerversetoolkit.shinyapps.io/visualpra/
+Es pot accedir directament a l'aplicació mitjançant el següent link: https://nerversetoolkit.shinyapps.io/visualpra/
+
+També es pot executar el codi, clonant el repositori i, un cop al directori, executar:
+```
+shiny run --reload
+```
 
 L'exposició a PM2,5 (micrograms per metre cúbic) es refereix a la inhalació de partícules fines que tenen un diàmetre de 2,5 micròmetres o menys. Aquestes partícules són prou petites per penetrar profundament en el sistema respiratori, arribar als pulmons i potencialment entrar al torrent sanguini. PM2.5 és una barreja de partícules diminutes i gotes líquides que poden incloure una varietat de components com ara àcids (per exemple, nitrats i sulfats), productes químics orgànics, metalls i partícules de sòl o pols.
 
