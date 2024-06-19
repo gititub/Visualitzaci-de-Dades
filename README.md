@@ -50,3 +50,10 @@ OECD Data Explorer • Exposure to air pollution. Retrieved from https://data-ex
 Last update 05/30/2024
 
 World Bank Open Data. Retrieved from https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?end=2019&start=2019&view=bar
+
+
+## Referències
+
+- shiny-gallery. Retrieved from https://github.com/rstudio/shiny-gallery
+- Gallery. Retrieved from https://shiny.posit.co/py/gallery
+  
